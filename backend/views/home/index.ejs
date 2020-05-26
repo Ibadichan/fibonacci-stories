@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Fibonacci numbers, get the number of Fibonacci" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <noscript>
+      Sorry, this site does not work without JS, enable it please, or download new browser :)
+    </noscript>
+    <div id="app-root">
+      <%- content %>
+      <form action="/fibonacci-stories" method="POST" novalidate>
+        <p>
+          <label>Enter Fibonacci number:</label>
+          <input type="number" min="0" max="2222" pattern="\d*" name="sequenceNumber" required />
+        </p>
+      </form>
+    </div>
+    <div id="modal-root"></div>
+  </body>
+</html>
