@@ -8,7 +8,7 @@ const requestIp = require('request-ip');
 const routes = require('./config/routes/index');
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 app.use(requestIp.mw());
 app.use(bodyParser.json());
