@@ -16,7 +16,7 @@ module.exports = {
         allowNull: false,
       },
       fibonacciNumber: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.TEXT,
         allowNull: false,
       },
       createdAt: {

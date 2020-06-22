@@ -1,4 +1,4 @@
-const getFibonacciNumber = require('../services/getFibonacciNumber');
+const getFibonacciNumber = require('../services/get-fibonacci-number');
 const db = require('../models/index');
 
 const { FibonacciStory } = db;

@@ -1,2 +1,3 @@
-# fibonacci-storage
-Fibonacci numbers storage.
+# fibonacci-stories
+
+Fibonacci stories.

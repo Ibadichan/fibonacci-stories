@@ -1,9 +1,7 @@
-const home = require('./home');
-const fibonacciStories = require('./fibonacciStories');
+const fibonacciStories = require('./fibonacci-stories');
 
 function routes(app) {
-  app.use('/', home);
-  app.use('/fibonacci-stories', fibonacciStories);
+  app.use('/api/fibonacci-stories', fibonacciStories);
 }
 
 module.exports = routes;

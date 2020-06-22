@@ -4,10 +4,21 @@
   "rules": {
     "prettier/prettier": ["error"],
     "import/no-extraneous-dependencies": 0,
+    "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
   "env": {
     "browser": true,
     "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["backend", "frontend"]
+      }
+    }
+  },
+  "globals": {
+    "BigInt": true
   }
 }

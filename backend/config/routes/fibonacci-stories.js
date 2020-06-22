@@ -1,5 +1,5 @@
 const express = require('express');
-const FibonacciStories = require('../../controllers/FibonacciStories');
+const FibonacciStories = require('../../controllers/fibonacci-stories');
 
 const router = express.Router();
 

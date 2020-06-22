@@ -15,17 +15,13 @@ module.exports = (sequelize, DataTypes) => {
         validate: {
           isNumeric: true,
           isInt: true,
-          max: 2222,
           min: 0,
+          max: 10000,
         },
       },
       fibonacciNumber: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.TEXT,
         allowNull: false,
-        validate: {
-          isNumeric: true,
-          isInt: true,
-        },
       },
     },
     {}
