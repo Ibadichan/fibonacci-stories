@@ -7,7 +7,7 @@ const config = {
     dialect: 'mysql',
   },
   production: {
-    use_env_variable: 'DATABASE_URL',
+    use_env_variable: 'CLEARDB_DATABASE_URL',
   },
 };
 
