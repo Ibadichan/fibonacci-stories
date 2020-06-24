@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const Dotenv = require('dotenv-webpack');
 
 const config = {
   mode: 'development',
@@ -48,7 +47,6 @@ const config = {
       template: './frontend/document.ejs',
     }),
     new webpack.HotModuleReplacementPlugin(),
-    new Dotenv(),
   ],
 
   resolve: {

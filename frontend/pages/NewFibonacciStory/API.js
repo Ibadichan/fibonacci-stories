@@ -1,9 +1,10 @@
 import APICall from 'utils/APICall';
+import config from 'config';
 
 function create(payload) {
   const response = APICall({
     method: 'POST',
-    endpoint: `${process.env.BACKEND_HOST}/api/fibonacci-stories`,
+    endpoint: `${config.BACKEND_HOST}/api/fibonacci-stories`,
     payload,
   });
 

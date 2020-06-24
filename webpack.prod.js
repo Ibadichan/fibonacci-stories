@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const Dotenv = require('dotenv-webpack');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
@@ -53,9 +52,6 @@ const config = {
     }),
     new HtmlWebpackPlugin({
       template: './frontend/document.ejs',
-    }),
-    new Dotenv({
-      path: path.resolve(__dirname, './.env'),
     }),
     new BundleAnalyzerPlugin(),
     new CleanWebpackPlugin(),
