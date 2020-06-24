@@ -1,5 +1,5 @@
 import { fibonacciStoriesPath } from 'helpers/routes';
-import Page from 'pages/SomeStories';
+import Page from 'pages/FibonacciStories';
 
 const Route = {
   exact: true,
