@@ -1,6 +1,6 @@
 import NewFibonacciStory from './NewFibonacciStory';
-import FibonacciStories from './FibonacciStories';
+import SomeStories from './SomeStories';
 
-const routes = [NewFibonacciStory, FibonacciStories];
+const routes = [NewFibonacciStory, SomeStories];
 
 export default routes;
