@@ -1,9 +1,7 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 const config = {
   mode: 'production',
@@ -53,9 +51,7 @@ const config = {
     new HtmlWebpackPlugin({
       template: './frontend/document.ejs',
     }),
-    new BundleAnalyzerPlugin(),
     new CleanWebpackPlugin(),
-    new webpack.ProgressPlugin(),
   ],
 
   resolve: {
