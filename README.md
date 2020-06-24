@@ -54,11 +54,7 @@ $ mysql -V # >= 5.7.16
 
 You can install and configure mysql following this tutorial:
 
-https://www.sitepoint.com/how-to-install-mysql/
-
-or this:
-
-https://tableplus.com/blog/2018/11/how-to-download-mysql-mac.html
+https://dev.mysql.com/doc/mysql-getting-started/en/
 
 5. Install project dependencies:
 
