@@ -5,6 +5,8 @@
   "main": "./backend/index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js & node ./backend/index",
+    "start:production": "npm run build & node ./backend/index & node ./frontend/server",
+    "build": "webpack --config webpack.prod.js",
     "lint": "eslint . --ext .js"
   },
   "husky": {

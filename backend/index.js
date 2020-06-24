@@ -23,5 +23,5 @@ app.set('view engine', 'ejs');
 routes(app);
 
 app.listen(port, () => {
-  console.log(`Server is listening on ${port}`); // eslint-disable-line
+  console.log(`Backend Server is listening on ${port}`); // eslint-disable-line
 });
