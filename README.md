@@ -68,6 +68,13 @@ $ npm install
 - Create in project root file named ".env" and paste content from ".sample-env".
 - If you have changed mysql "root" user password, then you must add it to .env file.
   For example: DB_USER_PASSWORD=123
+  
+7. Create database and migrations:
+
+```
+$ npx sequelize-cli db:create
+$ npx sequelize-cli db:migrate
+```
 
 Try to start web server:
 
