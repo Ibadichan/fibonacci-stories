@@ -28,7 +28,13 @@ You can install git following this tutorial:
 
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-2. Check that npm and node js are installed:
+2. Clone the repository to your computer:
+
+```
+$ git clone git@github.com:Ibadichan/fibonacci-stories.git
+```
+
+3. Check that npm and node js are installed:
 
 ```
 $ npm -v # >= 6.11.3
@@ -39,7 +45,7 @@ You can install npm and node js following this tutorial:
 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-3. Check that mysql is installed:
+4. Check that mysql is installed:
 
 ```
 $ mysql -V # >= 5.7.16
@@ -49,13 +55,13 @@ You can install and configure mysql following this tutorial:
 
 https://www.sitepoint.com/how-to-install-mysql/
 
-4. Install project dependencies:
+5. Install project dependencies:
 
 ```
 $ npm install
 ```
 
-5. Also you need to setup env variables.
+6. Also you need to setup env variables.
 
 - In project root find a file named ".sample-env" and copy it's content.
 - Create in project root file named ".env" and paste content from ".sample-env".
