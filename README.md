@@ -25,6 +25,7 @@ $ git --version # >= 2.21.0
 ```
 
 You can install git following this tutorial:
+
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 2. Check that npm and node js are installed:
@@ -35,6 +36,7 @@ $ node -v # >= 12.11.1
 ```
 
 You can install npm and node js following this tutorial:
+
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 3. Check that mysql is installed:
@@ -43,5 +45,12 @@ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 $ mysql -V # >= 5.7.16
 ```
 
-You can install mysql following this tutorial:
-https://dev.mysql.com/doc/refman/8.0/en/installing.html
+You can install and configure mysql following this tutorial:
+
+https://www.sitepoint.com/how-to-install-mysql/
+
+4. Install project dependencies:
+
+```
+$ npm install
+```
