@@ -1,6 +1,5 @@
 const path = require('path');
 const express = require('express');
-const compression = require('compression');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const requestIp = require('request-ip');
@@ -16,7 +15,6 @@ app.use(
   express.static(path.resolve(__dirname, '../frontend/public/assets'))
 );
 
-app.use(compression());
 app.use(cors());
 app.use(requestIp.mw());
 app.use(bodyParser.json());

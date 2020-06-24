@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
 
 const config = {
   mode: 'production',
@@ -52,6 +53,10 @@ const config = {
       template: './frontend/document.ejs',
     }),
     new CleanWebpackPlugin(),
+    new CompressionPlugin({
+      test: /\.js$|\.css$|\.html$/,
+      threshold: 10240,
+    }),
   ],
 
   resolve: {
