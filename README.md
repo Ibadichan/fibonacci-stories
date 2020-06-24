@@ -32,6 +32,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ```
 $ git clone git@github.com:Ibadichan/fibonacci-stories.git
+$ cd fibonacci-stories
 ```
 
 3. Check that npm and node js are installed:
