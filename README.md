@@ -54,3 +54,18 @@ https://www.sitepoint.com/how-to-install-mysql/
 ```
 $ npm install
 ```
+
+5. Also you need to copy env variables.
+
+- In project root find a file named ".sample-env" and copy it's content.
+- Create in project root file named ".env" and paste content from ".sample-env".
+- If you have changed mysql "root" user password, then you must add it to .env file.
+  For example: DB_USER_PASSWORD=123
+
+Try to start web server:
+
+```
+$ npm run start
+```
+
+Go to http://localhost:8080/ .
