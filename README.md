@@ -55,7 +55,7 @@ https://www.sitepoint.com/how-to-install-mysql/
 $ npm install
 ```
 
-5. Also you need to copy env variables.
+5. Also you need to setup env variables.
 
 - In project root find a file named ".sample-env" and copy it's content.
 - Create in project root file named ".env" and paste content from ".sample-env".
