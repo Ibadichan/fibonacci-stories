@@ -16,7 +16,7 @@ git >=2.21.0, npm >= 6.11.3, node >= 12.11.1, mysql >= 5.7.16
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Follow the instructions:
 
 1. Check that Git version manager is installed:
 
