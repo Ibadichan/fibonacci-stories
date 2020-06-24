@@ -54,7 +54,9 @@ const config = {
     new HtmlWebpackPlugin({
       template: './frontend/document.ejs',
     }),
-    new Dotenv(),
+    Dotenv({
+      path: path.resolve(__dirname, './.env'),
+    }),
     new BundleAnalyzerPlugin(),
     new CleanWebpackPlugin(),
     new webpack.ProgressPlugin(),

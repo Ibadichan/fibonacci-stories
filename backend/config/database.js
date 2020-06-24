@@ -10,7 +10,7 @@ const config = {
     username: 'root',
     password: process.env.DB_USER_PASSWORD,
     database: 'fibonacci-stories-production',
-    host: '127.0.0.1',
+    host: process.env.DATABASE_URL,
     dialect: 'mysql',
     pool: {
       max: 5,
