@@ -9,6 +9,9 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint . --ext .js"
   },
+  "engines": {
+    "node": ">= 12.11.1"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint"
